@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Initial D</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="javascript/logic.js"></script>
+    
+    <style>
+        .container {
+            margin-top: 12%;
+        }
+
+        #center {
+            background: white;
+            padding: 0;
+            text-align: center;
+            border: 3px black solid;
+            box-shadow: 5px 2px;
+        }
+
+        .header {
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body background="images/bginitiald.jpg" onload="startUp()">
+
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                
+            </div>
+            <div id="center" class="col-sm">
+                <img src="https://vignette.wikia.nocookie.net/initiald/images/1/19/Banner_1601.jpg/revision/latest?cb=20121115002143">
+                <h2>Initial-D Themed Word Guess Game</h2>
+        
+                <h1>Guess a letter/number</h1>
+                <input id="letter" type="text">
+                <input type="submit" onclick="letter()" value="submit"/>
+                
+                
+                <p id="answer"></p>
+                <p id="counter"></p>
+                <p id="stat"></p>
+            </div>
+            <div class="col-sm">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
